@@ -1,0 +1,67 @@
+@import url('//at.alicdn.com/t/font_1459738_u79fx9hhuzj.css');
+.tabs-content{
+	width:100%;
+	height:0.70rem;
+	border-radius:0.12rem 0.12rem 0 0;
+	background-color:#fff;
+	position:fixed;
+	bottom:0;
+	left:0;
+	display:flex;
+}
+.tabs-item{
+	flex:1;
+	height:0.7rem;
+	font-size:14px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.icon-size{
+	font-size:12px;
+	font-weight:600;
+}
+.item-name{
+	font-size:14px;
+	margin-top:0.02rem;
+}
+.icon-content{
+	width:0.24rem;
+	height:0.24rem;
+	padding:0.04rem;
+	border-radius:50%;
+	transform:scale(1.4);
+	
+}
+.tabs-cursor .icon-content:before{
+	top:0.11rem;
+	left:0rem;
+	position:absolute;
+	z-index:-2;
+	content:'';
+	width:0.24rem;
+	height:0.24rem;
+	background-color:#ffffff;
+	padding:0.04rem;
+	border-radius:50%;
+	transform:scale(1.4) translateY(-0.08rem);
+}
+.tabs-cursor .icon-content:after{
+	top:0.14rem;
+	left:0.04rem;
+	position:absolute;
+	z-index:-1;
+	content:'';
+	width:0.16rem;
+	height:0.16rem;
+	background-color:rgb(97,183,105);
+	padding:0.04rem;
+	border-radius:50%;
+	transform:scale(1.4) translateY(-0.08rem);
+}
+.tabs-cursor .icon-content{
+	color:white;
+	transform:scale(1.4) translateY(-0.08rem);
+	position:relative;
+}
